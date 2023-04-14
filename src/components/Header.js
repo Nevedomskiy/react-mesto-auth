@@ -1,4 +1,3 @@
-import React from 'react';
 import logoBig from '../images/logo142-33.svg'
 import logoSmall from '../images/logo103-24.svg'
 

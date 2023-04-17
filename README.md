@@ -78,31 +78,31 @@
 
 **3. Links to export resources for site layout**
 
-**GITHUB**
-[Website link](https://github.com/Nevedomskiy)
+   **GITHUB**
+   [Website link](https://github.com/Nevedomskiy)
 
-**Reference information**
-[Website link](https://developer.mozilla.org/ru/docs/Web/CSS)
+   **Reference information**
+   [Website link](https://developer.mozilla.org/ru/docs/Web/CSS)
 
-**Figma**
-[Link to layout in Figma PW4](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?t=ybH75czb5wz4FZfl-0)
-[Link to layout in Figma PW5](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=50160%3A347&t=TaShR0ur8yKeeiY8-0)
-[Link to layout in Figma PW6](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=1124%3A73&t=VhJyIu7o9N4NzeNw-0)
-[Link to layout in Figma PW9](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript.-Sprint-9?node-id=109-315&t=31I8asnDbe8w3Sv0-0)
+   **Figma**
+   [Link to layout in Figma PW4](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?t=ybH75czb5wz4FZfl-0)
+   [Link to layout in Figma PW5](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=50160%3A347&t=TaShR0ur8yKeeiY8-0)
+   [Link to layout in Figma PW6](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=1124%3A73&t=VhJyIu7o9N4NzeNw-0)
+   [Link to layout in Figma PW9](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript.-Sprint-9?node-id=109-315&t=31I8asnDbe8w3Sv0-0)
 
-**Picture Optimization**
-[Website Link](https://tinypng.com/)
+   **Picture Optimization**
+   [Website Link](https://tinypng.com/)
 
-**Inter font**
-[Website link](https://rsms.me/inter/)
+   **Inter font**
+   [Website link](https://rsms.me/inter/)
 
-**RGBA Color Matching**
-[Website Link](http://hex2rgba.devoth.com/)
+   **RGBA Color Matching**
+   [Website Link](http://hex2rgba.devoth.com/)
 
-**SVG compression**
-[Website Link](https://jakearchibald.github.io/svgomg/)
+   **SVG compression**
+   [Website Link](https://jakearchibald.github.io/svgomg/)
 
-**Favicon**
-[Website Link](https://favicon.io/favicon-generator/)
+   **Favicon**
+   [Website Link](https://favicon.io/favicon-generator/)
 
 **4. No updates planned for the near future**

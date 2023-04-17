@@ -2,7 +2,7 @@
 
 **1. Название проекта** - "Проект: Место-Реакт". Проектная работа №10.
 
-**2. Назначение** - Данный проект используется для закрепленния теоритеческого материала в программе обучения ЯндексПрактикума "Веб-разработчик". В результате выполнения ПР4-9 из макетов FIGMA был сверстан адаптивный сайт, который в последующем был запушен на GITHAB и с помощью Diploy выложен в публичный доступ - [Ссылка на сайт] - (https://nevedomskiy.github.io/mesto/). Во время текущего спринта, фукнциональность предыдущих работ, была переписана с помощью React.
+**2. Назначение** - Данный проект используется для закрепленния теоритеческого материала в программе обучения ЯндексПрактикума "Веб-разработчик". В результате выполнения ПР4-9 из макетов FIGMA был сверстан адаптивный сайт, который в последующем был запушен на GITHAB и с помощью Diploy выложен в публичный доступ - [Ссылка на сайт] - (https://nevedomskiy.github.io/mesto/). Во время 10 спринта, фукнциональность предыдущих работ, была переписана с помощью React.
 
 **Во время 10 спринта были изучены и применены методы:**
    - Знакомство с React:
@@ -57,7 +57,7 @@
 
 **1. Project name** - "Project: Mesto-React". Project work No. 10.
 
-**2. Purpose** - This project is used to consolidate the theoretical material in the Yandex Practicum "Web Developer" training program. As a result of the implementation of PR4-9, a sensitive site was made from the FIGMA layouts, which was subsequently uploaded to GITHAB and made publicly available using Diploy - [Website link] - (https://nevedomskiy.github.io/mesto/) . During the sprint visit, the functionality of previous work was rewritten using React.
+**2. Purpose** - This project is used to consolidate the theoretical material in the Yandex Practicum "Web Developer" training program. As a result of the implementation of PR4-9, a sensitive site was made from the FIGMA layouts, which was subsequently uploaded to GITHAB and made publicly available using Diploy - [Website link] - (https://nevedomskiy.github.io/mesto/). During Sprint 10, the functionality of previous work was rewritten using React.
 
 **During the 10 sprints the following methods were researched and applied:**
    - Introduction to React:

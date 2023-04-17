@@ -60,23 +60,23 @@
 **2. Purpose** - This project is used to consolidate the theoretical material in the Yandex Practicum "Web Developer" training program. As a result of the implementation of PR4-9, a sensitive site was made from the FIGMA layouts, which was subsequently uploaded to GITHAB and made publicly available using Diploy - [Website link] - (https://nevedomskiy.github.io/mesto/) . During the sprint visit, the functionality of previous work was rewritten using React.
 
 **During the 10 sprints the following methods were researched and applied:**
-     - Introduction to React:
-        * Components;
-        * Declarative approach;
-        * "React" and JSX. JSX Syntax: Basics. JSX syntax: lists and events;
-        * Functional components;
-        * Class components. Life cycle of class components;
-     - React Toolkit:
-        * Familiarity with the Create React application. New project. Project unpacking. Project structure. Adding a class component;
-        * Import modules. Import images. Working with CSS Fonts;
-        * Project debugging. Installing the React DevTools extension. ;
-        * Build project.
-     - React hooks:
-        * useState hook;
-        * useEffect hook;
-        * Dependencies;
+   - Introduction to React:
+      * Components;
+      * Declarative approach;
+      * "React" and JSX. JSX Syntax: Basics. JSX syntax: lists and events;
+      * Functional components;
+      * Class components. Life cycle of class components;
+   - React Toolkit:
+      * Familiarity with the Create React application. New project. Project unpacking. Project structure. Adding a class component;
+      * Import modules. Import images. Working with CSS Fonts;
+      * Project debugging. Installing the React DevTools extension. ;
+      * Build project.
+   - React hooks:
+      * useState hook;
+      * useEffect hook;
+      * Dependencies;
 
-3. Links to export resources for site layout
+**3. Links to export resources for site layout**
 
 **GITHUB**
 [Website link](https://github.com/Nevedomskiy)
@@ -105,4 +105,4 @@
 **Favicon**
 [Website Link](https://favicon.io/favicon-generator/)
 
-**4. В ближайшее время доработок не планируется**
+**4. No updates planned for the near future**

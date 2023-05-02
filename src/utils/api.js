@@ -105,33 +105,34 @@ class Api {
       })
   }
 
-  //добавление лайка
-  addLikes(dataId) {
-    return fetch(`${this._url}cards/${dataId}/likes`, {
-      method: 'PUT',
-      headers: {
-        'content-type': 'application/json',
-        authorization: this._authorization
-      }
-    })
-      .then((res) => {
-        return this._getResponseData(res);
+
+  changeLikeCardStatus(dataId, isLiked) {
+    if (isLiked) {
+      return fetch(`${this._url}cards/${dataId}/likes`, {
+        method: 'PUT',
+        headers: {
+          'content-type': 'application/json',
+          authorization: this._authorization
+        }
       })
+        .then((res) => {
+          return this._getResponseData(res);
+        })
+    }
+    else {
+      return fetch(`${this._url}cards/${dataId}/likes/`, {
+        method: 'DELETE',
+        headers: {
+          'content-type': 'application/json',
+          authorization: this._authorization
+        }
+      })
+        .then((res) => {
+          return this._getResponseData(res);
+        })
+    }
   }
 
-  //удаление лайка
-  deleteLikes(dataId) {
-    return fetch(`${this._url}cards/${dataId}/likes/`, {
-      method: 'DELETE',
-      headers: {
-        'content-type': 'application/json',
-        authorization: this._authorization
-      }
-    })
-      .then((res) => {
-        return this._getResponseData(res);
-      })
-  }
 }
 
 //api данных карточек

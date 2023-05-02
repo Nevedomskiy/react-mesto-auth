@@ -11,9 +11,9 @@
 
 Резюме - https://saratov.hh.ru/resume/1309bbf3ff0be5c57f0039ed1f636655475242
 
-**1. Название проекта** - "Проект: Место-Реакт". Проектная работа №10.
+**1. Название проекта** - "Проект: Место-Реакт". Проектная работа №10-11.
 
-**2. Назначение** - Данный проект используется для закрепленния теоритеческого материала в программе обучения ЯндексПрактикума "Веб-разработчик". В результате выполнения ПР4-9 из макетов FIGMA был сверстан адаптивный сайт, который в последующем был запушен на GITHAB и с помощью Diploy выложен в публичный доступ - [Ссылка на сайт] - (https://nevedomskiy.github.io/mesto/). Во время 10 спринта, фукнциональность предыдущих работ, была переписана с помощью React.
+**2. Назначение** - Данный проект используется для закрепленния теоритеческого материала в программе обучения ЯндексПрактикума "Веб-разработчик". В результате выполнения ПР4-9 из макетов FIGMA был сверстан адаптивный сайт, который в последующем был запушен на GITHAB и с помощью Diploy выложен в публичный доступ - [Ссылка на сайт] - (https://nevedomskiy.github.io/mesto/). Во время 10-11 спринтов, фукнциональность предыдущих работ, была переписана с помощью React.
 
 **Во время 10 спринта были изучены и применены методы:**
    - Знакомство с React:
@@ -31,6 +31,24 @@
       * хук useState;
       * хук useEffect;
       * Зависимости;
+
+**Во время 11 спринта были изучены и применены методы:**
+   - React Router:
+      * Навигация и ссылки;
+      * Вложенные маршруты;
+      * Динамические маршруты;
+      * Создание страницы 404;
+      * Программная навигация;
+   - Работа с данными:
+      * Поднятие стейта;
+      * Создание и подключение контекста. Подписка на контекст;
+      * Введение в Redux;
+   - React важное:
+      * Списки и ключи;
+      * Работа с формами;
+      * Рефы;
+      * Чистые компоненты;
+      * Компоненты более высокого порядка;
 
 **3. Ссылки на сторонние ресурсы для верстки сайта**
 
@@ -61,7 +79,9 @@
   **Фамикон**
   [Ссылка на сайт](https://favicon.io/favicon-generator/)
 
-**4. В ближайшее время доработок не планируется**
+**4. В планах на улучшение**
+- Написать валидацию форм;
+- Добавить renderLoading;
 
 
 **For English speaking users**
@@ -77,9 +97,9 @@ I am open to communication and job offers:
 
 Summary - https://saratov.hh.ru/resume/1309bbf3ff0be5c57f0039ed1f636655475242
 
-**1. Project name** - "Project: Mesto-React". Project work No. 10.
+**1. Project name** - "Project: Mesto-React". Project work No. 10-11.
 
-**2. Purpose** - This project is used to consolidate the theoretical material in the Yandex Practicum "Web Developer" training program. As a result of the implementation of PR4-9, a sensitive site was made from the FIGMA layouts, which was subsequently uploaded to GITHAB and made publicly available using Diploy - [Website link] - (https://nevedomskiy.github.io/mesto/). During Sprint 10, the functionality of previous work was rewritten using React.
+**2. Purpose** - This project is used to consolidate the theoretical material in the Yandex Practicum "Web Developer" training program. As a result of the implementation of PR4-9, a sensitive site was made from the FIGMA layouts, which was subsequently uploaded to GITHAB and made publicly available using Diploy - [Website link] - (https://nevedomskiy.github.io/mesto/). During Sprints 10-11, the functionality of previous work was rewritten using React.
 
 **During the 10 sprints the following methods were researched and applied:**
    - Introduction to React:
@@ -97,6 +117,24 @@ Summary - https://saratov.hh.ru/resume/1309bbf3ff0be5c57f0039ed1f636655475242
       * useState hook;
       * useEffect hook;
       * Dependencies;
+
+**During the 11th sprint, the methods were studied and applied:**
+   - React Router:
+      * Navigation and links;
+      * Nested routes;
+      * Dynamic routes;
+      * Creating a 404 page;
+      * Software navigation;
+   - Working with data:
+      * Raising the state;
+      * Creating and connecting context. Subscribing to context;
+      * Introduction to Redux;
+   - React important:
+      * Lists and keys;
+      * Working with forms;
+      * Refs;
+      * Pure components;
+      * Higher order components;
 
 **3. Links to export resources for site layout**
 
@@ -127,4 +165,6 @@ Summary - https://saratov.hh.ru/resume/1309bbf3ff0be5c57f0039ed1f636655475242
    **Favicon**
    [Website Link](https://favicon.io/favicon-generator/)
 
-**4. No updates planned for the near future**
+**4. Plans for improvement**
+- Write form validation;
+- Add render Loading;

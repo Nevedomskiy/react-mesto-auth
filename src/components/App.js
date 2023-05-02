@@ -10,7 +10,7 @@ import ImagePopup from './ImagePopup.js';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 import AddPlacePopup from './AddPlacePopup';
 import EditAvatarPopup from '../components/EditAvatarPopup';
-import { CardsDataContext } from '../contexts/CardsDataContext';
+
 
 function App() {
   const [isEditProfilePopupOpen, setEditProfilePopupOpen] = useState(false);
@@ -30,8 +30,6 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-
-
   }, []);
 
   function handleCardLike(card) {
@@ -45,7 +43,6 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-
   }
 
   function handleUpdateUser(newDataUser) {
@@ -57,7 +54,6 @@ function App() {
             name: result.name,
             about: result.about
           }
-
         });
         closeAllPopups();
       })
@@ -74,7 +70,6 @@ function App() {
             ...prev,
             avatar: result.avatar
           }
-
         });
         closeAllPopups();
       })
@@ -104,71 +99,77 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-
   }
 
   function handleEditAvatarClick() {
-    setEditAvatarPopupOpen(prev => {
-      return prev = true
-    })
+    setEditAvatarPopupOpen(true)
   }
 
   function handleEditProfileClick() {
-    setEditProfilePopupOpen(prev => {
-      return prev = true
-    })
+    setEditProfilePopupOpen(true)
   }
 
   function handleAddPlaceClick() {
-    setAddPlacePopupOpen(prev => {
-      return prev = true
-    })
+    setAddPlacePopupOpen(true)
   }
 
   function handleCardClick(card) {
     setSelectedCard(card);
-    setCardPopupOpen(prev => {
-      return prev = true
-    });
+    setCardPopupOpen(true);
   }
 
   function closeAllPopups() {
-    setAddPlacePopupOpen(prev => {
-      return prev = false
-    });
-    setEditProfilePopupOpen(prev => {
-      return prev = false
-    });
-    setEditAvatarPopupOpen(prev => {
-      return prev = false
-    });
+    setAddPlacePopupOpen(false);
+    setEditProfilePopupOpen(false);
+    setEditAvatarPopupOpen(false);
     setSelectedCard({});
-    setCardPopupOpen(prev => {
-      return prev = false
-    });
+    setCardPopupOpen(false);
   }
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
       <div className="bodywork">
         <div className="page">
+
           <Header />
-          <CardsDataContext.Provider value={cards}>
-            <Main onEditProfile={handleEditProfileClick} onCardDelete={handleCardDelete} onCardLike={handleCardLike} onAddPlace={handleAddPlaceClick} onEditAvatar={handleEditAvatarClick} onCardClick={handleCardClick} />
-          </CardsDataContext.Provider>
 
-
+          <Main
+            onEditProfile={handleEditProfileClick}
+            cardsData={cards}
+            onCardDelete={handleCardDelete}
+            onCardLike={handleCardLike}
+            onAddPlace={handleAddPlaceClick}
+            onEditAvatar={handleEditAvatarClick}
+            onCardClick={handleCardClick} />
           <Footer />
 
-          <AddPlacePopup isOpen={isAddPlacePopupOpen} onClose={closeAllPopups} onAddPlace={handleAddPlaceSubmit} />
+          <AddPlacePopup
+            isOpen={isAddPlacePopupOpen}
+            onClose={closeAllPopups}
+            onAddPlace={handleAddPlaceSubmit} />
 
-          <EditProfilePopup isOpen={isEditProfilePopupOpen} onClose={closeAllPopups} onUpdateUser={handleUpdateUser} />
+          <EditProfilePopup
+            isOpen={isEditProfilePopupOpen}
+            onClose={closeAllPopups}
+            onUpdateUser={handleUpdateUser} />
 
-          <EditAvatarPopup isOpen={isEditAvatarPopupOpen} onClose={closeAllPopups} onUpdateAvatar={handleUpdateAvatar} />
+          <EditAvatarPopup
+            isOpen={isEditAvatarPopupOpen}
+            onClose={closeAllPopups}
+            onUpdateAvatar={handleUpdateAvatar} />
 
-          <PopupWithForm buttonText={"Да"} name={'confirmation'} onClose={closeAllPopups} title={"Вы уверены?"}></PopupWithForm>
+          <PopupWithForm
+            buttonText={"Да"}
+            name={'confirmation'}
+            onClose={closeAllPopups}
+            title={"Вы уверены?"}>
+          </PopupWithForm>
 
-          <ImagePopup isOpen={isCardPopupOpen} card={selectedCard} onClose={closeAllPopups} />
+          <ImagePopup
+            isOpen={isCardPopupOpen}
+            card={selectedCard}
+            onClose={closeAllPopups} />
+
         </div>
       </div >
     </CurrentUserContext.Provider>

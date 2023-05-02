@@ -5,8 +5,16 @@ function Header() {
    return (
       <header className="header">
          <picture>
-            <source media="(max-width: 1023px)" srcSet={logoSmall} />
-            <img src={logoBig} className="header__logo" alt="Логотип 'Место-Россия'" />
+
+            <source
+               media="(max-width: 1023px)"
+               srcSet={logoSmall} />
+
+            <img
+               src={logoBig}
+               className="header__logo"
+               alt="Логотип 'Место-Россия'" />
+
          </picture>
       </header>
    );

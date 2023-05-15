@@ -13,9 +13,6 @@
 /* Стили container */
 @import url(./blocks/content/content.css);
 
-/* Стили header */
-@import url(./blocks/header/header.css);
-
 /* Стили profile */
 @import url(./blocks/profile/profile.css);
 @import url(./blocks/profile/__avatar/profile__avatar.css);

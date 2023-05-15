@@ -40,14 +40,14 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace }) {
             maxLength="30"
             name="name"
             placeholder="Название"
-            className="popup__input popup__input_type_name-place" >
-
+            className="popup__input popup__input_type_name-place"
+         >
          </input >
 
          <span
             id="place-name-error"
-            className="popup__text-error">
-
+            className="popup__text-error"
+         >
          </span>
 
          <input
@@ -58,13 +58,14 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace }) {
             type="url"
             name="link"
             placeholder="Ссылка на картинку"
-            className="popup__input popup__input_type_link-place">
-
+            className="popup__input popup__input_type_link-place"
+         >
          </input>
 
          <span
             id="place-url-error"
-            className="popup__text-error">
+            className="popup__text-error"
+         >
          </span>
 
       </PopupWithForm>

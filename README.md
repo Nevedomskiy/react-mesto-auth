@@ -39,11 +39,11 @@
   [Ссылка на сайт](https://developer.mozilla.org/ru/docs/Web/CSS)
 
   **Figma**
-  [Ссылка на макет в Figma ПР4](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?t=ybH75czb5wz4FZfl-0)
-  [Ссылка на макет в Figma ПР5](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=50160%3A347&t=TaShR0ur8yKeeiY8-0)
-  [Ссылка на макет в Figma ПР6](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=1124%3A73&t=VhJyIu7o9N4NzeNw-0)
-  [Ссылка на макет в Figma ПР9](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript.-Sprint-9?node-id=109-315&t=31I8asnDbe8w3Sv0-0)
-  [Ссылка на макет в Figma ПР12](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/Sprint-14-RU?node-id=0%3A1)
+  * [Ссылка на макет в Figma ПР4](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?t=ybH75czb5wz4FZfl-0)
+  * [Ссылка на макет в Figma ПР5](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=50160%3A347&t=TaShR0ur8yKeeiY8-0)
+  * [Ссылка на макет в Figma ПР6](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=1124%3A73&t=VhJyIu7o9N4NzeNw-0)
+  * [Ссылка на макет в Figma ПР9](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript.-Sprint-9?node-id=109-315&t=31I8asnDbe8w3Sv0-0)
+  * [Ссылка на макет в Figma ПР12](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/Sprint-14-RU?node-id=0%3A1)
 
   **Оптимизация картинкок**
   [Ссылка на сайт](https://tinypng.com/)

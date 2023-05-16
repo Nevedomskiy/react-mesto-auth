@@ -195,18 +195,6 @@ function App() {
             />
           </Routes>
 
-          {/* <Main
-            onEditProfile={handleEditProfileClick}
-            cardsData={cards}
-            onCardDelete={handleCardDelete}
-            onCardLike={handleCardLike}
-            onAddPlace={handleAddPlaceClick}
-            onEditAvatar={handleEditAvatarClick}
-            onCardClick={handleCardClick}
-          /> */}
-
-
-
           <Footer />
 
           <AddPlacePopup

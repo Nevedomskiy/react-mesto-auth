@@ -12,10 +12,6 @@
    transition: all 0.5s ease-out;
 }
 
-.header-active {
-   padding-top: 142px;
-}
-
 .header-link {
    cursor: pointer;
    text-decoration: none;
@@ -76,6 +72,10 @@
       margin-top: 0px;
       margin-right: 0;
       color: #A9A9A9;
+   }
+
+   .header-active {
+      padding-top: 142px;
    }
 
    .header::after {

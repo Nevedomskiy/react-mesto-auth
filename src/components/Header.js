@@ -2,7 +2,7 @@ import logoBig from '../images/logo142-33.svg';
 import logoSmall from '../images/logo103-24.svg';
 import { useState } from 'react';
 import { Route, Routes, Link, useNavigate } from 'react-router-dom';
-import './styles/header.css'
+import './Header.css'
 
 function Header({ email }) {
 

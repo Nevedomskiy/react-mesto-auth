@@ -1,4 +1,4 @@
-import './styles/InfoTooltip.css'
+import './InfoTooltip.css'
 
 function InfoTooltip({ imageLink, name, text, isOpen, onClose }) {
    return (

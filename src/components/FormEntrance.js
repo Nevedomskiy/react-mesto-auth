@@ -1,4 +1,4 @@
-import './styles/entrance.css'
+import './FormEntrance.css'
 import { Link } from 'react-router-dom';
 
 function FormEntrance({ title, textBtn, handleSubmit, handleChange, formValue }) {

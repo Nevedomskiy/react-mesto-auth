@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import FormEntrance from './FormEntrance';
 import * as auth from './Auth';
-import './styles/register.css'
+import './Register.css'
 
 function Register({ handeleOpenPopupSuccess, handeleOpenPopupFail }) {
 
